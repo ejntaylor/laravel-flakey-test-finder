@@ -2,9 +2,9 @@
 
 namespace Ejntaylor\Flake;
 
+use Ejntaylor\Flake\Commands\FlakeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ejntaylor\Flake\Commands\FlakeCommand;
 
 class FlakeServiceProvider extends PackageServiceProvider
 {

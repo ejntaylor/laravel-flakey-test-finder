@@ -2,9 +2,9 @@
 
 namespace Ejntaylor\Flake\Tests;
 
+use Ejntaylor\Flake\FlakeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ejntaylor\Flake\FlakeServiceProvider;
 
 class TestCase extends Orchestra
 {
